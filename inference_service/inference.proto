@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+service InferenceService {
+  rpc Predict (ImageRequest) returns (PredictionResponse);
+}
+
+message ImageRequest {
+  bytes image = 1;
+}
+
+message PredictionResponse {
+  string label = 1;
+}

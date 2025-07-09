@@ -1,0 +1,7 @@
+torch
+torchvision
+opencv-python
+grpcio
+grpcio-tools
+protobuf
+kafka-python
